@@ -1,0 +1,40 @@
+{
+  "name": "CML Fuel Management System Pro",
+  "short_name": "CML Fuel Pro",
+  "description": "Application professionnelle de gestion et d'audit de carburant pour la flotte minière de la Compagnie Minière du Littoral (CML) en Côte d'Ivoire.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#f59e0b",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "prefer_related_applications": false,
+  "categories": ["business", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Saisir un Ravitaillement",
+      "short_name": "Ravitaillement",
+      "description": "Saisie rapide terrain minier",
+      "url": "/?tab=refueling"
+    },
+    {
+      "name": "Tableau de Bord KPI",
+      "short_name": "KPI Dashboard",
+      "description": "Vue stratégique direction CML",
+      "url": "/?tab=dashboard"
+    }
+  ]
+}

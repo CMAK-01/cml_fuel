@@ -1,0 +1,21 @@
+{
+  "appId": "ci.cml.fuelmanagementpro",
+  "appName": "CML Fuel Management System Pro",
+  "webDir": "public",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#0f172a",
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "spinnerColor": "#f59e0b"
+    },
+    "Camera": {
+      "permissions": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="120" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="384" height="384" rx="90" fill="url(#grad)" opacity="0.15"/>
+  <path d="M160 352 V192 C160 174.3 174.3 160 192 160 H320 C337.7 160 352 174.3 352 192 V352" fill="none" stroke="#f59e0b" stroke-width="28" stroke-linecap="round"/>
+  <path d="M220 220 H292 V270 H220 Z" fill="#f59e0b" rx="8"/>
+  <circle cx="256" cy="330" r="24" fill="#f59e0b"/>
+  <text x="256" y="440" font-family="Arial, sans-serif" font-weight="900" font-size="72" fill="#ffffff" text-anchor="middle" letter-spacing="4">CML</text>
+</svg>
